@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.1.0)
+    dht-sensor-ffi (0.2.0)
+      ffi (~> 1.9)
+    eventmachine (1.0.9)
+    ffi (1.9.18)
+    i2c (0.4.0)
+    pi_piper (2.0.0)
+      eventmachine (= 1.0.9)
+      ffi
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  dht-sensor-ffi
+  i2c (~> 0.4.0)
+  pi_piper
+
+BUNDLED WITH
+   1.15.3
